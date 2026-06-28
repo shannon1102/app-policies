@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Sage Marketing</title>
+    <style>
+      :root { color-scheme: light; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: #fafafa;
+      }
+      h1 { font-size: 28px; margin-bottom: 4px; }
+      .updated { color: #666; font-size: 14px; margin-bottom: 24px; }
+      h2 { font-size: 18px; margin-top: 28px; }
+      ul { padding-left: 1.25rem; }
+      li { margin-bottom: 6px; }
+      a { color: #0d3b66; }
+      code { background: #ececec; padding: 2px 6px; border-radius: 4px; }
+      nav { margin-bottom: 32px; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> ·
+      <a href="terms-of-service.html">Terms of Service</a>
+    </nav>
+
+    <h1>Privacy Policy — Sage Marketing</h1>
+    <p class="updated">Last updated: 2026-06-28</p>
+
+    <p>
+      <strong>Sage Marketing</strong> (also referred to as <strong>sage_mkt</strong>, the
+      "Service") is operated by huyvandev. This Privacy Policy explains what
+      information we collect when you use our multi-platform social media
+      scheduling dashboard, how we use it, and your choices.
+    </p>
+
+    <h2>1. Who we are</h2>
+    <p>
+      Sage Marketing is a web application that lets you connect social media
+      accounts, compose posts (including video and images), schedule publishing,
+      and view basic analytics across supported platforms: Facebook, Instagram,
+      YouTube, TikTok, LinkedIn, and X (Twitter).
+    </p>
+    <p>
+      Contact: <a href="mailto:huyvanorg@gmail.com">huyvanorg@gmail.com</a>
+    </p>
+
+    <h2>2. Information we collect</h2>
+    <p>We collect the following categories of data when you use the Service:</p>
+    <ul>
+      <li>
+        <strong>Account information</strong> — email address and authentication
+        identifiers when you sign up or sign in to your Sage Marketing account
+        (via Supabase Auth).
+      </li>
+      <li>
+        <strong>Connected social account data</strong> — when you authorize a
+        platform via OAuth, we receive and store: platform user ID, display
+        name, avatar URL, granted permission scopes, and encrypted OAuth access
+        and refresh tokens. For TikTok, this includes basic profile information
+        (<code>user.info.basic</code>) required to identify your account.
+      </li>
+      <li>
+        <strong>Content you create</strong> — post titles, captions, hashtags,
+        per-platform variants, scheduled publish times, and media files (images
+        and videos) you upload for publishing.
+      </li>
+      <li>
+        <strong>Publishing and analytics data</strong> — publish status, external
+        post IDs, error messages, and engagement metrics (views, likes, comments,
+        shares) retrieved from connected platforms after your content is published.
+      </li>
+      <li>
+        <strong>Technical data</strong> — server logs such as IP address,
+        browser type, request timestamps, and error diagnostics needed to operate
+        and secure the Service.
+      </li>
+    </ul>
+
+    <h2>3. How we use your information</h2>
+    <p>We use collected data solely to:</p>
+    <ul>
+      <li>Provide, maintain, and improve the Service;</li>
+      <li>Authenticate you and manage your account;</li>
+      <li>Connect and manage your authorized social media accounts;</li>
+      <li>Publish content to platforms you select, at the times you schedule;</li>
+      <li>Display publish status and basic analytics in your dashboard;</li>
+      <li>Refresh OAuth tokens so connected accounts remain active;</li>
+      <li>Respond to support requests and enforce our Terms of Service;</li>
+      <li>Detect, prevent, and address security issues or abuse.</li>
+    </ul>
+    <p>
+      We do <strong>not</strong> sell your personal information. We do
+      <strong>not</strong> use your data for third-party advertising.
+    </p>
+
+    <h2>4. Platform integrations and OAuth</h2>
+    <p>
+      When you connect a social account, you are redirected to that platform's
+      official authorization page. We only receive the permissions you explicitly
+      grant. You can disconnect any account at any time from the Service settings,
+      which revokes our ability to publish on your behalf.
+    </p>
+    <p>Platform-specific permissions we may request include:</p>
+    <ul>
+      <li><strong>TikTok</strong> — basic profile info and video publishing (<code>user.info.basic</code>, <code>video.publish</code>);</li>
+      <li><strong>Meta (Facebook / Instagram)</strong> — page and content publishing permissions;</li>
+      <li><strong>Google (YouTube)</strong> — video upload and read-only channel access;</li>
+      <li><strong>LinkedIn</strong> — profile and member social posting permissions;</li>
+      <li><strong>X (Twitter)</strong> — tweet and media upload permissions.</li>
+    </ul>
+    <p>
+      Each platform's own privacy policy governs data they collect during
+      authorization. We encourage you to review those policies before connecting
+      an account.
+    </p>
+
+    <h2>5. How we store and protect data</h2>
+    <ul>
+      <li>OAuth tokens are encrypted at rest using AES-256 before storage.</li>
+      <li>Media files are stored in secure cloud storage (Supabase Storage).</li>
+      <li>Database access is restricted to authenticated server-side processes.</li>
+      <li>Communication with the Service uses HTTPS/TLS encryption in transit.</li>
+    </ul>
+    <p>
+      While we implement industry-standard safeguards, no method of transmission
+      or storage is 100% secure. You are responsible for keeping your account
+      credentials confidential.
+    </p>
+
+    <h2>6. Third-party service providers</h2>
+    <p>We use trusted infrastructure providers to operate the Service:</p>
+    <ul>
+      <li><strong>Supabase</strong> — authentication, database, and file storage;</li>
+      <li><strong>Vercel</strong> — web application hosting;</li>
+      <li><strong>Social platform APIs</strong> — Facebook, Instagram, YouTube, TikTok, LinkedIn, and X — solely to perform actions you authorize (connect accounts, publish content, fetch analytics).</li>
+    </ul>
+    <p>
+      These providers process data on our behalf under their respective privacy
+      policies and data processing terms. We do not share your content or tokens
+      with any other third parties.
+    </p>
+
+    <h2>7. Data retention</h2>
+    <ul>
+      <li>Account and connected-account data are retained while your account is active.</li>
+      <li>Post content and media are retained until you delete them or close your account.</li>
+      <li>OAuth tokens are deleted when you disconnect a social account.</li>
+      <li>Server logs are retained for a limited period for security and debugging, then deleted or anonymized.</li>
+    </ul>
+
+    <h2>8. Your rights and choices</h2>
+    <p>Depending on your location, you may have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you;</li>
+      <li>Correct inaccurate information in your account profile;</li>
+      <li>Delete your account and associated data;</li>
+      <li>Disconnect any linked social media account;</li>
+      <li>Export your post content before deletion;</li>
+      <li>Withdraw consent for platform connections at any time via the platform's own settings or our dashboard.</li>
+    </ul>
+    <p>
+      To exercise these rights, contact us at
+      <a href="mailto:huyvanorg@gmail.com">huyvanorg@gmail.com</a>. We will
+      respond within a reasonable timeframe.
+    </p>
+
+    <h2>9. International data transfers</h2>
+    <p>
+      Your data may be processed on servers located outside your country of
+      residence (including the United States and other regions where our cloud
+      providers operate). We ensure appropriate safeguards are in place consistent
+      with applicable data protection laws.
+    </p>
+
+    <h2>10. Children's privacy</h2>
+    <p>
+      The Service is not directed to individuals under 16 years of age. We do not
+      knowingly collect personal information from children. If you believe a child
+      has provided us data, please contact us and we will delete it promptly.
+    </p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. The revised version
+      will be posted at this URL with an updated "Last updated" date. Continued
+      use of the Service after changes constitutes acceptance of the updated policy.
+    </p>
+
+    <h2>12. Contact</h2>
+    <p>
+      Questions about this Privacy Policy or your data:
+      <a href="mailto:huyvanorg@gmail.com">huyvanorg@gmail.com</a>
+    </p>
+  </body>
+</html>
